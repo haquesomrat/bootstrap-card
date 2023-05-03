@@ -1,0 +1,61 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 2rem;
+  }
+  .card_one,
+  .card_two,
+  .card_three {
+    max-width: 406px;
+    max-height: 352px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 2rem;
+  }
+  .card_one,
+  .card_two,
+  .card_three {
+    max-width: 346px;
+    max-height: 432px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 1rem;
+  }
+  .card_one,
+  .card_two,
+  .card_three {
+    max-width: 285.98px;
+    max-height: 453.25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card_one,
+  .card_two,
+  .card_three {
+    max-width: 100%;
+    max-height: 453.25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .card_one,
+  .card_two,
+  .card_three {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
